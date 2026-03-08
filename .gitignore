@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+.expo/
+.expo-shared/
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Build
+dist/
+build/
+*.apk
+*.ipa
+*.aab
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Supabase
+supabase/.branches
+supabase/.temp
+
+# Credentials (NEVER commit real keys)
+infrastructure/n8n/credentials/*.json
+*.key
+*.pem
