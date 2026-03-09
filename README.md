@@ -1,40 +1,26 @@
-# Bloom App
+# 🌸 Bloom – Hamile Çiftler için AI Destekli Mobil Uygulama
 
-> Hamilelik yolculugunda ciftleri bir araya getiren akilli uygulama.
+Bloom, İsveç pazarında hamile çiftlere haftalık içerik, AI asistan ve partner desteği sunan bir mobil uygulamadır.
 
-## Nedir?
-Bloom, Isvec pazarini hedefleyen, ciftlerin hamilelik surecini birlikte
-yasayabilecegi bir mobil uygulamadir. Haftalik bebek gelisimi, saglik
-takibi ve partner senkronizasyonu ile hamilelik deneyimini zenginlestirir.
+## 🚀 Tech Stack
+- React Native / Expo
+- Supabase (Backend & Auth)
+- OpenAI API (AI Asistan)
+- TypeScript
 
-## Tech Stack
-- **Frontend:** React Native + Expo
-- **Backend:** Supabase (PostgreSQL + Auth + Storage)
-- **AI:** Anthropic Claude API
-- **Automation:** n8n (7 AI departman)
-- **Hedef:** iOS & Android
+## 📁 Proje Yapısı
+```
+bloom/
+├── app/               # Expo Router sayfaları
+├── components/        # UI bileşenleri
+├── hooks/             # Custom hooks
+├── lib/               # Supabase, API clients
+├── assets/            # Görseller, fontlar
+└── constants/         # Renkler, tipler
+```
 
-## Hizli Baslangic
+## 🏁 Başlarken
 ```bash
-git clone https://github.com/creativedigitalsv/bloom-app.git
-cd bloom-app
 npm install
 npx expo start
 ```
-
-## Proje Yapisi
-Detayli yapi icin: [WORKSPACE-ARCHITECTURE.md](WORKSPACE-ARCHITECTURE.md)
-
-## Departmanlar
-| Departman | Durum |
-|-----------|-------|
-| Legal & Compliance | Aktif |
-| Finance | Aktif |
-| Marketing | Aktif |
-| Engineering | Aktif |
-| Content | Aktif |
-| Analytics | Aktif |
-| CX Support | Aktif |
-
-## Lisans
-Proprietary - Creative Digital SV 2026
